@@ -93,7 +93,7 @@ export const PeopleFilters: React.FC = () => {
 
       <div className="panel-block">
         <SearchLink
-          params={{ sex: '', query: '', centuries: [] }}
+          params={{ sex: null, query: null, centuries: [] }}
           className="button is-link is-outlined is-fullwidth"
         >
           Reset all filters
